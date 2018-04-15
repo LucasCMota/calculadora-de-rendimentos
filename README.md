@@ -1,1 +1,1 @@
-# Calculadora de jurus composto
+# Calculadora de juros composto
