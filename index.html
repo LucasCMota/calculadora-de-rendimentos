@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<title>CALCULADORA DE REDIMENTOS </title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<form id="form">
+			<tbody>
+			<div>
+				<tr>
+					<td>
+						<label for="valor_inicial">valor inicial</label>
+					</td>
+					<td>
+						<label for="deposito_mensal">Deposito mensal</label>
+					</td>
+					<td>
+						<label for="juros_mensal"> jurus mensal</label>
+						
+					</td>
+					<td>
+						<label for="total_meses">total de meses</label>
+					</td>
+					<td>
+						<button for="total" type="button" id="result">Calcular</button>
+					</td>
+				</tr>
+			</div>
+			<div>
+				<tr>
+					<td>
+						<input type="text" name="valor_inicial" id="v_i" >
+					</td>
+					<td>
+						<input type="text" name="deposito_mensal" id="d_m">
+					</td>
+					<td>
+						<input type="text" name="juros_mensal" id="j_m">
+					</td>
+					<td>
+						<input type="text" name="total_meses" id="t_m">
+					</td>
+					<td>
+						<input type="text" id="resultado" name="total" value="0" disabled="disabled"></input>
+					</td> 
+
+			</div>
+			</tbody>
+		</form>
+		<script src="app.js"></script>
+	</body>
+</html>
+
+
+
+
+
